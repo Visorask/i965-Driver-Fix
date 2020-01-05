@@ -23,3 +23,5 @@ You will also need to ensure that you have igpu enabled on your motherboard firs
 ![vainfo2](https://i.imgur.com/rmADp1t.png)
 
 Hopefully this is everything you need to get your igpu working on your server.
+
+I've had a question on why I do not use the iHD driver (intel media driver). The reason for this is it needs to be compiled on individual setups. This is not condusive for most people. This is the reason why.
