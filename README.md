@@ -27,3 +27,6 @@ Hopefully this is everything you need to get your igpu working on your server.
 I've had a question on why I do not use the iHD driver (intel media driver). The reason for this is it needs to be compiled on individual setups. This is not condusive for most people. This is the reason why.
 
 So here is the link to the Intel media driver if you are interested in pursuing this route but I provide no support for this method.
+
+
+https://github.com/intel/media-driver/wiki/How-to-build-and-use-media-driver%3F
