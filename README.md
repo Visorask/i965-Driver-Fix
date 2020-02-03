@@ -24,6 +24,17 @@ You will also need to ensure that you have igpu enabled on your motherboard firs
 
 Hopefully this is everything you need to get your igpu working on your server.
 
+##Troubleshooting
+
+If you have an issue where your vainfo still does not show the correct information there is two ways to try and resolve this issue.
+
+1. You do not have your iGPU enabled in the bios of your motherboard. Ensure it is turned on and set correctly.
+2. If your BIOS is 100% correct then this will be the next step.
+   - `export LIBVA_DRIVERS_PATH=/usr/lib/x86_64-linux-gnu/dri/`
+   - `export LIBVA_DRIVER_NAME=i965`
+
+This should fix any issues and assign the i965 driver to be utilized instead of the i915 or any other installed on the machine.
+
 I've had a question on why I do not use the iHD driver (intel media driver). The reason for this is it needs to be compiled on individual setups. This is not condusive for most people. This is the reason why.
 
 So here is the link to the Intel media driver if you are interested in pursuing this route but I provide no support for this method.
