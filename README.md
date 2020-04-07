@@ -24,7 +24,7 @@ You will also need to ensure that you have igpu enabled on your motherboard firs
 
 Hopefully this is everything you need to get your igpu working on your server.
 
-##Troubleshooting
+## Troubleshooting
 
 If you have an issue where your vainfo still does not show the correct information there is two ways to try and resolve this issue.
 
