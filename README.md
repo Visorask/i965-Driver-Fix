@@ -1,3 +1,8 @@
+# This repo is now archived. Utilize this script to do everything in a better method. | https://github.com/Visorask/Misc.-Scripts/blob/master/mk-intel-driver.sh
+
+
+
+
 # i965-Driver-Fix
 I put together a guide for fixing anyone's 9600/9700k that do not work with HW transcoding on ubuntu 18.04 or lower. All credits for the repo and packages used in this guide go to https://launchpad.net/~wsnipex.
 
